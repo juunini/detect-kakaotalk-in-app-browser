@@ -1,7 +1,7 @@
 {
   "name": "detect-kakaotalk-in-app-browser",
-  "version": "0.0.1",
-  "description": "Detect Facebook in-app browser typescript library",
+  "version": "0.1.0",
+  "description": "Detect Kakaotalk in-app browser typescript library",
   "author": "juunini",
   "license": "MIT",
   "repository": "https://github.com/juunini/detect-kakaotalk-in-app-browser",
@@ -17,7 +17,7 @@
   "keywords": [
     "typescript",
     "detect",
-    "facebook",
+    "kakaotalk",
     "in-app",
     "browser"
   ],

@@ -5,7 +5,7 @@
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-[![codecov](https://codecov.io/gh/juunini/detect-kakaotalk-in-app-browser/branch/main/graph/badge.svg?token=H2LNON80F9)](https://codecov.io/gh/juunini/detect-kakaotalk-in-app-browser)
+[![codecov](https://codecov.io/gh/juunini/detect-kakaotalk-in-app-browser-/branch/main/graph/badge.svg?token=A29MTWGGAX)](https://codecov.io/gh/juunini/detect-kakaotalk-in-app-browser-)
 
 ## Languages
 
