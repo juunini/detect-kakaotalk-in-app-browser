@@ -1,0 +1,47 @@
+import { Meta, Canvas } from '@storybook/addon-docs';
+
+import isKakaotalkInAppBrowser from '.';
+
+<Meta title="detect-kakaotalk-in-app-browser | 한국어" />
+
+# Detect Kakaotalk in-app browser
+
+[![Go To Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juunini/detect-kakaotalk-in-app-browser)
+[![Go To NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/detect-kakaotalk-in-app-browser)
+[![Go To yarnpkg](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)](https://yarnpkg.com/package/detect-kakaotalk-in-app-browser)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+[![codecov](https://codecov.io/gh/juunini/detect-kakaotalk-in-app-browser/branch/main/graph/badge.svg?token=H2LNON80F9)](https://codecov.io/gh/juunini/detect-kakaotalk-in-app-browser)
+
+<br />
+<h3>
+  당신의 브라우저는 카카오톡 인앱 브라우저가
+  <strong style={{ color: isKakaotalkInAppBrowser() ? 'red' : 'green' }}>
+    {` ${isKakaotalkInAppBrowser() ? '맞습니다' : '아닙니다'}`}
+  </strong>
+  .
+</h3>
+<br />
+
+## 소개
+
+인앱 브라우저 너무 힘듭니다.
+
+## 설치
+
+```bash
+npm i detect-kakaotalk-in-app-browser # npm
+
+yarn add detect-kakaotalk-in-app-browser # yarn
+```
+
+## 사용법
+
+```ts
+import isKakaotalkInAppBrowser from 'detect-kakaotalk-in-app-browser';
+
+if (isKakaotalkInAppBrowser()) {
+  // do something...
+}
+```

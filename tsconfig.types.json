@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./types",
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "paths": {
+      "detect-kakaotalk-in-app-browser": ["./src/index.ts"]
+    }
+  },
+  "files": [
+    "./src/index.ts",
+  ],
+  "exclude": ["./src/**/*", "./tests/**/*"]
+}
